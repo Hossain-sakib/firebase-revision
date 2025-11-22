@@ -10,8 +10,9 @@ const firebaseConfig = {
   projectId: "simple-firebase-a2c3f",
   storageBucket: "simple-firebase-a2c3f.firebasestorage.app",
   messagingSenderId: "190917061457",
-  appId: "1:190917061457:web:814ba4a5caf1bba42ec170"
+  appId: "1:190917061457:web:814ba4a5caf1bba42ec170",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export default app;
